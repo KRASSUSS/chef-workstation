@@ -3,5 +3,5 @@
 # Recipe:: default
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
-inlude_recipe 'workstation::setup'
-inlude_recipe 'workstation::vagrant'
+include_recipe 'workstation::setup'
+include_recipe 'workstation::vagrant'
