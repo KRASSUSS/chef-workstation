@@ -9,7 +9,7 @@ package 'ntp'
 node['ipaddress']
 node['memory']['total']
 
-template '/home/krasus/Desktop/chef/motd' do
+template '/home/vagrant/motd' do
   source 'motd.erb'
   variables(
     :name => 'KRASSUSS'
